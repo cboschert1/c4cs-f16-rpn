@@ -11,7 +11,7 @@ class TestBasics(unittest.TestCase):
 		self.assertEqual(2, result)
 	def test_multiply(self):
 		result = rpn.calculate("5 3 *")
-		self.assertEqual(15, result)
+		self.assertEqual(12, result)
 	def test_divide(self):
 		result = rpn.calculate("6 3 /")
 		self.assertEqual(2, result)
@@ -20,4 +20,4 @@ class TestBasics(unittest.TestCase):
 			rpn.calculate("1 2 3 +")
 	def test_carat(self):
 		rpn.exponantiate("1 2 ^")
-		self.assertEqual(1, result)
+		self.assertEqual(0, 5)
