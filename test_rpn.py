@@ -1,6 +1,6 @@
 import unittest
 
-import rpn.py
+import rpn
 
 class TestBasics(unittest.TestCase):
 	def test_add(self):
@@ -20,4 +20,4 @@ class TestBasics(unittest.TestCase):
 			rpn.calculate("1 2 3 +")
 	def test_carat(self):
 		rpn.exponantiate("1 2 ^")
-		self.assertEqual(0, 5)
+		self.assertEqual(2, result)
